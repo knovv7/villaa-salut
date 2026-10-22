@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Villa Salut — saúde e vida fitness</title>
+  <meta name="description" content="Suplementos originais para treinar com você: proteínas, creatina, colágeno e clear whey.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%23adf903'/%3E%3Cpath d='M7 22c5-4 9-5 13-4.5s5 2 6 3.5M10 20v-7l4-3 4 3v6M17 19l3-11 3 11z' fill='none' stroke='%230a577e' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Instrument+Serif:ital@0;1&family=Onest:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ícones (traço 1.5px) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></symbol>
+      <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+      <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+      <symbol id="i-eye-off" viewBox="0 0 24 24"><path d="M4 4l16 16M10.6 6.1A9.6 9.6 0 0 1 12 5.5C18 5.5 21.5 12 21.5 12a17 17 0 0 1-3 3.8M6.7 7.2C4 8.9 2.5 12 2.5 12S6 18.5 12 18.5c1.6 0 3-.4 4.2-1.1"/><path d="M9.9 10a3 3 0 0 0 4.1 4.1"/></symbol>
+      <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.8" r="2.3"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></symbol>
+      <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 6h11v10H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></symbol>
+      <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></symbol>
+      <symbol id="i-swap" viewBox="0 0 24 24"><path d="M4 9h14l-3-3M20 15H6l3 3"/></symbol>
+      <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14Z"/><path d="M5 19 13 11"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 4 2.4 5 5.6.6-4.2 3.8 1.2 5.6L12 16.2 7 19l1.2-5.6L4 9.6 9.6 9 12 4Z"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.5"/><circle cx="17" cy="7" r=".6"/></symbol>
+      <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 4c.5 2.5 2 4 5 4.3"/></symbol>
+      <symbol id="i-youtube" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="m10.5 9.5 4 2.5-4 2.5z"/></symbol>
+
+      <!-- logo: casinhas + árvores sobre o morro, redesenhada da imagem em logo/ -->
+      <symbol id="logo-mark" viewBox="0 0 122 72">
+        <g fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 66C30 47 52 39 72 42s32 16 46 26"/>
+          <path d="M12 54V30h22M18 38h8"/>
+          <path d="M34 47V26l12-10 12 10"/>
+          <path d="M43 29v4M49 29v4"/>
+          <path d="M52 54 60 20l8 34Z"/>
+          <path d="M60 54v9"/>
+          <path d="M66 42 74 10l8 32Z"/>
+          <path d="M74 42v8"/>
+          <path d="M84 47V28l13-10 13 10v26"/>
+          <path d="M93 31v3M100 31v3M93 38v3M100 38v3"/>
+          <path d="M108 64l5-19 5 19Z"/>
+        </g>
+      </symbol>
+      <symbol id="logo" viewBox="0 0 204 72">
+        <use href="#logo-mark" width="122" height="72"/>
+        <text x="130" y="33" fill="currentColor" font-family="'DM Serif Display', Georgia, serif" font-size="31">Villa</text>
+        <text x="130" y="65" fill="currentColor" font-family="'DM Serif Display', Georgia, serif" font-size="31">Salut</text>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- intro: câmera entra por uma letra da marca ao rolar (glyph-portal.js) -->
+  <section class="portal" data-glyph-portal aria-label="Villa Salut">
+    <noscript><style>.portal [data-gp-fallback]{display:grid}.portal [data-gp-hint]{display:none}</style></noscript>
+    <div data-gp-viewport aria-hidden="true"></div>
+    <div data-gp-pin>
+      <div data-gp-field aria-hidden="true" inert>
+        <div class="portal__bg"><svg viewBox="0 0 122 72"><use href="#logo-mark"/></svg></div>
+      </div>
+      <svg data-gp-art aria-hidden="true" focusable="false">
+        <defs>
+          <clipPath id="gp-clip" clipPathUnits="userSpaceOnUse">
+            <text data-gp-glyph x="0" y="0">Villa Salut</text>
+          </clipPath>
+        </defs>
+      </svg>
+      <div data-gp-choices role="radiogroup" aria-label="escolha a letra pra entrar" inert></div>
+      <div data-gp-front>
+        <svg class="portal__mark" viewBox="0 0 122 72" aria-hidden="true"><use href="#logo-mark"/></svg>
+        <p class="portal__support">escolha uma letra e role pra entrar na villa</p>
+        <span class="portal__scroll">role a tela<svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+      </div>
+      <span data-gp-fallback aria-hidden="true">Villa Salut</span>
+      <div data-gp-caption>
+        <span data-gp-hint>loja de saúde e vida fitness</span>
+        <a data-gp-enter href="#topo">pular intro<span aria-hidden="true">↘</span></a>
+      </div>
+    </div>
+    <div data-gp-content id="intro-conteudo" tabindex="-1">
+      <div class="portal__copy">
+        <p class="eyebrow">bem-vindo à villa</p>
+        <h2>referência em saúde, <span class="nowrap">bem-estar</span> e qualidade de <em>vida</em></h2>
+        <div class="portal__features portal__features--stores">
+          <div>
+            <span>loja 01</span>
+            <h3>campelo via lago</h3>
+            <a class="btn btn--line store__map" href="https://www.google.com/maps/place/Villa+Salut+Produtos+Naturais/@-7.2031753,-48.2226004,17z/data=!3m1!4b1!4m6!3m5!1s0x92d90d1ac1d4370d:0x2608aa81cc0b65dc!8m2!3d-7.2031806!4d-48.2200255!16s%2Fg%2F11h2pxctwx?entry=ttu&amp;g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" aria-label="ver a loja 01, campelo via lago, no google maps (abre em nova aba)"><svg aria-hidden="true"><use href="#i-pin"/></svg>ver no mapa</a>
+          </div>
+          <div>
+            <span>loja 02</span>
+            <h3>araguaína sul</h3>
+            <a class="btn btn--line store__map" href="https://www.google.com/maps/place/Villa+Salut/@-7.1809256,-48.195475,17z/data=!3m1!4b1!4m6!3m5!1s0x92d90de63bbc261f:0xc1a535ecba8c9b74!8m2!3d-7.1809309!4d-48.1929001!16s%2Fg%2F11yj8qdfd6?entry=ttu&amp;g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" aria-label="ver a loja 02, araguaína sul, no google maps (abre em nova aba)"><svg aria-hidden="true"><use href="#i-pin"/></svg>ver no mapa</a>
+          </div>
+        </div>
+        <a href="#topo" class="btn btn--on-lime">entrar na loja</a>
+      </div>
+    </div>
+  </section>
+
+  <header class="header" id="topo">
+    <div class="header__inner">
+      <a href="#topo" class="logo" aria-label="villa salut, início"><svg viewBox="0 0 204 72" aria-hidden="true"><use href="#logo"/></svg></a>
+
+      <nav class="nav" aria-label="principal">
+        <a href="#categorias">categorias</a>
+        <a href="#mais-vendidos">mais vendidos</a>
+        <a href="#lancamento">lançamentos</a>
+        <a href="#sobre">sobre nós</a>
+        <a href="#entrega">entrega</a>
+      </nav>
+
+      <div class="utils">
+        <button class="icon-btn" aria-label="buscar produtos" aria-haspopup="dialog" aria-controls="busca" data-open="busca"><svg><use href="#i-search"/></svg></button>
+        <button class="icon-btn hide-sm" aria-label="minha conta" aria-haspopup="dialog" aria-controls="conta" data-open="conta"><svg><use href="#i-user"/></svg></button>
+        <button class="icon-btn fav-btn" aria-label="favoritos, 0 produtos" aria-haspopup="dialog" aria-controls="favoritos" data-open="favoritos"><svg><use href="#i-heart"/></svg></button>
+        <button class="icon-btn cart-btn" aria-label="carrinho, 0 itens" aria-haspopup="dialog" aria-controls="carrinho" data-open="carrinho">
+          <svg><use href="#i-bag"/></svg>
+          <span class="badge" data-cart-count>0</span>
+        </button>
+        <button class="icon-btn menu-btn" aria-label="abrir menu" aria-expanded="false" aria-controls="menu-mobile"><svg><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+
+    <nav class="menu-mobile" id="menu-mobile" aria-label="menu" hidden>
+      <a href="#categorias">categorias</a>
+      <a href="#mais-vendidos">mais vendidos</a>
+      <a href="#lancamento">lançamentos</a>
+      <a href="#sobre">sobre nós</a>
+      <a href="#entrega">entrega</a>
+      <button type="button" class="menu-mobile__btn" aria-haspopup="dialog" aria-controls="conta" data-open="conta">minha conta</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero__text">
+        <div class="hero__copy">
+          <p class="eyebrow">villa salut · suplementos</p>
+          <h1 class="hero__title">saúde que<br>treina junto<br>com <em>você</em></h1>
+          <p class="hero__sub">suplementos originais, das marcas que você confia, pra cada fase do seu treino. seu corpo agradece.</p>
+          <div class="hero__ctas">
+            <a href="#mais-vendidos" class="btn btn--primary">comprar agora</a>
+            <a href="#categorias" class="btn btn--line">ver categorias</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- potes girando em roda, um passando pelo outro (script.js).
+           Cada pote tem um halo e uma sombra de chão próprios, em camadas abaixo de todos os potes. -->
+      <div class="hero__stage" data-orbit role="img" aria-label="potes de Juicedop clear whey nos sabores morango e hibisco, manga crazy, limão e matchá e melon fresh">
+        <div class="orbit__layer" aria-hidden="true">
+          <span class="orbit__glow"></span><span class="orbit__glow"></span><span class="orbit__glow"></span><span class="orbit__glow"></span>
+          <span class="orbit__shadow"></span><span class="orbit__shadow"></span><span class="orbit__shadow"></span><span class="orbit__shadow"></span>
+        </div>
+        <div class="orbit__item" data-glow="232, 58, 72">
+          <img src="assets/juicedop/juicedop-morango-hibisco.png" alt="" draggable="false">
+          <span class="orbit__light" style="-webkit-mask-image:url(assets/juicedop/juicedop-morango-hibisco.png);mask-image:url(assets/juicedop/juicedop-morango-hibisco.png)"></span>
+        </div>
+        <div class="orbit__item" data-glow="64, 158, 238">
+          <img src="assets/juicedop/juicedop-manga-crazy.png" alt="" draggable="false">
+          <span class="orbit__light" style="-webkit-mask-image:url(assets/juicedop/juicedop-manga-crazy.png);mask-image:url(assets/juicedop/juicedop-manga-crazy.png)"></span>
+        </div>
+        <div class="orbit__item" data-glow="150, 222, 34">
+          <img src="assets/juicedop/juicedop-limao-matcha.png" alt="" draggable="false">
+          <span class="orbit__light" style="-webkit-mask-image:url(assets/juicedop/juicedop-limao-matcha.png);mask-image:url(assets/juicedop/juicedop-limao-matcha.png)"></span>
+        </div>
+        <div class="orbit__item" data-glow="246, 196, 52">
+          <img src="assets/juicedop/juicedop-melon-fresh.png" alt="" draggable="false">
+          <span class="orbit__light" style="-webkit-mask-image:url(assets/juicedop/juicedop-melon-fresh.png);mask-image:url(assets/juicedop/juicedop-melon-fresh.png)"></span>
+        </div>
+      </div>
+    </section>
+
+    <a href="#lancamento" class="strip-link">novo · juicedop clear whey em 5 sabores <svg><use href="#i-arrow"/></svg></a>
+
+    <!-- categorias -->
+    <section class="section" id="categorias">
+      <div class="section__head">
+        <h2 class="h-section">nossa linha pra<br>treino e <em>bem-estar</em></h2>
+        <ul class="trust">
+          <li><svg><use href="#i-shield"/></svg>100% originais</li>
+          <li><svg><use href="#i-leaf"/></svg>opções sem lactose</li>
+          <li><svg><use href="#i-truck"/></svg>envio em 24h</li>
+        </ul>
+      </div>
+
+      <div class="cats" data-carousel>
+        <a href="#mais-vendidos" class="cat">
+          <div class="cat__img"><img src="assets/juicedop/juicedop-limao-matcha.png" alt="pote de Juicedop limão e matchá"></div>
+          <span class="cat__label"><small>clear</small>whey</span>
+          <svg class="cat__arrow"><use href="#i-arrow"/></svg>
+        </a>
+        <a href="#mais-vendidos" class="cat">
+          <div class="cat__img"><img src="assets/produtos/creatina-max.png" alt="pote de creatina Max Titanium"></div>
+          <span class="cat__label"><small>a</small>creatina</span>
+          <svg class="cat__arrow"><use href="#i-arrow"/></svg>
+        </a>
+        <a href="#mais-vendidos" class="cat">
+          <div class="cat__img"><img src="assets/produtos/100-beef.png" alt="pote de 100% Beef"></div>
+          <span class="cat__label"><small>as</small>proteínas</span>
+          <svg class="cat__arrow"><use href="#i-arrow"/></svg>
+        </a>
+        <a href="#mais-vendidos" class="cat">
+          <div class="cat__img"><img src="assets/produtos/super-colageno.png" alt="pote de Super Colágeno"></div>
+          <span class="cat__label"><small>o</small>colágeno</span>
+          <svg class="cat__arrow"><use href="#i-arrow"/></svg>
+        </a>
+        <a href="#mais-vendidos" class="cat">
+          <div class="cat__img"><img src="assets/juicedop/juicedop-manga-crazy.png" alt="pote de Juicedop manga crazy"></div>
+          <span class="cat__label"><small>os</small>kits</span>
+          <svg class="cat__arrow"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+      <div class="carousel-ctrl">
+        <button class="round-btn" data-carousel-prev aria-label="anterior"><svg style="transform:scaleX(-1)"><use href="#i-arrow"/></svg></button>
+        <button class="round-btn" data-carousel-next aria-label="próximo"><svg><use href="#i-arrow"/></svg></button>
+        <span class="muted">mais categorias</span>
+      </div>
+    </section>
+
+    <!-- mais vendidos -->
+    <section class="section" id="mais-vendidos">
+      <div class="section__head">
+        <h2 class="h-section"><span class="eyebrow-inline">top</span>mais <em>amados</em></h2>
+        <a href="#mais-vendidos" class="link">todos os produtos</a>
+      </div>
+
+      <div class="grid">
+        <article class="card" data-product="juicedop-tangerina">
+          <div class="card__img">
+            <img src="assets/produtos/juicedop-tangerina.png" alt="Juicedop clear whey tangerina e chá branco, 450 g">
+            <button class="fav" aria-label="favoritar" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>
+          </div>
+          <h3 class="card__title">Juicedop Clear Whey · tangerina + chá branco</h3>
+          <p class="card__desc">whey isolado com jeito de suco, leve e refrescante</p>
+          <div class="card__foot"><span class="price">R$ 159,90</span><button class="add" data-add aria-label="adicionar ao carrinho"><svg><use href="#i-bag"/></svg></button></div>
+        </article>
+        <article class="card" data-product="creatina-max">
+          <div class="card__img">
+            <img src="assets/produtos/creatina-max.png" alt="Creatine Max Titanium, 300 g">
+            <button class="fav" aria-label="favoritar" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>
+          </div>
+          <h3 class="card__title">Creatine · Max Titanium</h3>
+          <p class="card__desc">creatina monohidratada em pó, 300 g</p>
+          <div class="card__foot"><span class="price">R$ 119,90</span><button class="add" data-add aria-label="adicionar ao carrinho"><svg><use href="#i-bag"/></svg></button></div>
+        </article>
+        <article class="card" data-product="100-beef">
+          <div class="card__img">
+            <img src="assets/produtos/100-beef.png" alt="100% Beef Adaptogen sabor chocolate, 900 g">
+            <button class="fav" aria-label="favoritar" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>
+          </div>
+          <h3 class="card__title">100% Beef · Adaptogen</h3>
+          <p class="card__desc">proteína da carne, sabor chocolate, 900 g</p>
+          <div class="card__foot"><span class="price">R$ 149,90</span><button class="add" data-add aria-label="adicionar ao carrinho"><svg><use href="#i-bag"/></svg></button></div>
+        </article>
+        <article class="card" data-product="super-colageno">
+          <div class="card__img">
+            <img src="assets/produtos/super-colageno.png" alt="Super Colágeno Invisible sabor neutro, 200 g">
+            <button class="fav" aria-label="favoritar" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>
+          </div>
+          <h3 class="card__title">Super Colágeno · Invisible</h3>
+          <p class="card__desc">colágeno com vitaminas, sem sabor e sem lactose</p>
+          <div class="card__foot"><span class="price">R$ 79,90</span><button class="add" data-add aria-label="adicionar ao carrinho"><svg><use href="#i-bag"/></svg></button></div>
+        </article>
+      </div>
+      <div class="center"><a href="#mais-vendidos" class="btn btn--primary">ver mais</a></div>
+    </section>
+
+    <!-- lançamento -->
+    <section class="launch" id="lancamento">
+      <div class="launch__inner" data-product="juicedop-limao-matcha">
+        <div class="launch__text">
+          <p class="eyebrow">novo produto</p>
+          <h2 class="launch__title">clear whey<br>juicedop<br><em>refrescante</em></h2>
+          <p class="launch__sub">proteína isolada com cara de suco. leve, transparente e boa de tomar depois do treino.</p>
+          <div class="flavors" role="radiogroup" aria-label="sabores">
+            <button role="radio" aria-checked="true" class="flavor is-on" data-flavor="limao" data-product="juicedop-limao-matcha" data-name="limão + matchá" data-img="assets/juicedop/juicedop-limao-matcha.png">limão</button>
+            <button role="radio" aria-checked="false" class="flavor" data-flavor="morango" data-product="juicedop-morango-hibisco" data-name="morango + hibisco" data-img="assets/juicedop/juicedop-morango-hibisco.png">morango</button>
+            <button role="radio" aria-checked="false" class="flavor" data-flavor="manga" data-product="juicedop-manga-crazy" data-name="manga crazy" data-img="assets/juicedop/juicedop-manga-crazy.png">manga</button>
+            <button role="radio" aria-checked="false" class="flavor" data-flavor="melao" data-product="juicedop-melon-fresh" data-name="melon fresh" data-img="assets/juicedop/juicedop-melon-fresh.png">melão</button>
+          </div>
+          <a href="#mais-vendidos" class="btn btn--white" data-add>comprar agora</a>
+        </div>
+
+        <div class="launch__stage">
+          <img class="launch__img" data-launch-img src="assets/juicedop/juicedop-limao-matcha.png" alt="pote de Juicedop clear whey limão + matchá">
+        </div>
+
+        <div class="mini">
+          <p class="mini__title">Juicedop Clear Whey<br><span data-launch-name>limão + matchá</span></p>
+          <img class="mini__img" data-launch-mini src="assets/juicedop/juicedop-limao-matcha.png" alt="">
+          <div class="mini__foot"><span data-launch-price>R$ 159,90</span><button class="add" data-add aria-label="adicionar ao carrinho"><svg><use href="#i-bag"/></svg></button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- número -->
+    <section class="section stat">
+      <p class="stat__num">100%</p>
+      <div class="stat__side">
+        <p class="stat__label">produtos originais, comprados direto das marcas e distribuidores oficiais</p>
+        <p class="stat__text">a gente confere lote, validade e nota fiscal de tudo o que chega. você só se preocupa com o treino.</p>
+      </div>
+    </section>
+
+    <!-- novidades -->
+    <section class="section" id="novidades">
+      <div class="section__head">
+        <h2 class="h-section"><span class="eyebrow-inline">novo</span>sabores <em>juicedop</em></h2>
+        <a href="#lancamento" class="link">ver lançamento</a>
+      </div>
+      <div class="grid">
+        <article class="card" data-product="juicedop-limao-matcha">
+          <div class="card__img">
+            <img src="assets/juicedop/juicedop-limao-matcha.png" alt="Juicedop clear whey limão e matchá, 450 g">
+            <button class="fav" aria-label="favoritar" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>
+          </div>
+          <h3 class="card__title">Juicedop · limão + matchá</h3>
+          <p class="card__desc">clear whey 100% isolado, 450 g</p>
+          <div class="card__foot"><span class="price">R$ 159,90</span><button class="add" data-add aria-label="adicionar ao carrinho"><svg><use href="#i-bag"/></svg></button></div>
+        </article>
+        <article class="card" data-product="juicedop-morango-hibisco">
+          <div class="card__img">
+            <img src="assets/juicedop/juicedop-morango-hibisco.png" alt="Juicedop clear whey morango e hibisco, 450 g">
+            <button class="fav" aria-label="favoritar" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>
+          </div>
+          <h3 class="card__title">Juicedop · morango + hibisco</h3>
+          <p class="card__desc">clear whey 100% isolado, 450 g</p>
+          <div class="card__foot"><span class="price">R$ 159,90</span><button class="add" data-add aria-label="adicionar ao carrinho"><svg><use href="#i-bag"/></svg></button></div>
+        </article>
+        <article class="card" data-product="juicedop-manga-crazy">
+          <div class="card__img">
+            <img src="assets/juicedop/juicedop-manga-crazy.png" alt="Juicedop clear whey manga crazy, 450 g">
+            <button class="fav" aria-label="favoritar" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>
+          </div>
+          <h3 class="card__title">Juicedop · manga crazy</h3>
+          <p class="card__desc">edição limitada, 450 g</p>
+          <div class="card__foot"><span class="price">R$ 164,90</span><button class="add" data-add aria-label="adicionar ao carrinho"><svg><use href="#i-bag"/></svg></button></div>
+        </article>
+        <article class="card" data-product="juicedop-melon-fresh">
+          <div class="card__img">
+            <img src="assets/juicedop/juicedop-melon-fresh.png" alt="Juicedop clear whey melon fresh, 450 g">
+            <button class="fav" aria-label="favoritar" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>
+          </div>
+          <h3 class="card__title">Juicedop · melon fresh</h3>
+          <p class="card__desc">clear whey 100% isolado, 450 g</p>
+          <div class="card__foot"><span class="price">R$ 159,90</span><button class="add" data-add aria-label="adicionar ao carrinho"><svg><use href="#i-bag"/></svg></button></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- sobre -->
+    <section class="section about" id="sobre">
+      <div class="accordion">
+        <details>
+          <summary>nossa missão<svg><use href="#i-plus"/></svg></summary>
+          <p>deixar o cuidado com o corpo mais simples. a gente escolhe bem, explica sem complicar e entrega rápido, pra você focar no que importa: treinar e se sentir bem.</p>
+        </details>
+        <details>
+          <summary>como escolhemos<svg><use href="#i-plus"/></svg></summary>
+          <p>só trabalhamos com marcas que têm registro, laudo e procedência clara. se a gente não tomaria, não vende.</p>
+        </details>
+        <details>
+          <summary>nossos valores<svg><use href="#i-plus"/></svg></summary>
+          <p>transparência no rótulo, preço justo e atendimento de gente de verdade, que também treina.</p>
+        </details>
+      </div>
+      <div class="about__foot">
+        <a href="#sobre" class="link">saiba mais</a>
+        <p class="muted">cada pote que sai daqui foi conferido por alguém do nosso time.</p>
+      </div>
+    </section>
+
+    <!-- depoimentos -->
+    <section class="section" id="depoimentos">
+      <div class="section__head">
+        <h2 class="h-section"><span class="eyebrow-inline">quem compra</span>clientes <em>falam</em></h2>
+        <p class="rating"><svg><use href="#i-star"/></svg> nota média <strong>4,9</strong> de 5</p>
+      </div>
+      <!-- carrossel escalonado (script.js, bloco "depoimentos").
+           DEPOIMENTOS PROVISÓRIOS, escritos só pra montar o layout: trocar por avaliações reais antes de publicar.
+           Cada item precisa só do texto e do primeiro nome de quem escreveu. -->
+      <div class="stagger" data-stagger tabindex="0" role="region" aria-roledescription="carrossel" aria-label="depoimentos de clientes. use as setas do teclado pra navegar.">
+        <ul class="stagger__list" data-stagger-list>
+          <li class="stagger__card"><blockquote>o juicedop de tangerina virou meu pós-treino. leve, não pesa no estômago e chegou no dia seguinte.</blockquote><p class="stagger__by">marina</p></li>
+          <li class="stagger__card"><blockquote>comprei a creatina com medo de ser falsificada. veio com nota e lote certinho. agora só compro aqui.</blockquote><p class="stagger__by">rafael</p></li>
+          <li class="stagger__card"><blockquote>o atendimento me ajudou a escolher o colágeno certo. simples, sem empurrar nada.</blockquote><p class="stagger__by">ana</p></li>
+          <li class="stagger__card"><blockquote>passo na loja toda semana. o pessoal lembra do que eu uso e sempre tem no estoque.</blockquote><p class="stagger__by">joão</p></li>
+          <li class="stagger__card"><blockquote>o 100% beef de chocolate é o único que não me deixa estufada. já estou no terceiro pote.</blockquote><p class="stagger__by">carla</p></li>
+          <li class="stagger__card"><blockquote>pedi pelo site de manhã e à tarde já estava saindo. embalagem caprichada, nada amassado.</blockquote><p class="stagger__by">lucas</p></li>
+          <li class="stagger__card"><blockquote>o clear whey de limão com matchá é refrescante de verdade. parece suco, não parece shake.</blockquote><p class="stagger__by">bia</p></li>
+        </ul>
+        <div class="stagger__ctrl">
+          <button class="stagger__btn" type="button" data-stagger-prev aria-label="depoimento anterior"><svg style="transform:scaleX(-1)"><use href="#i-arrow"/></svg></button>
+          <button class="stagger__btn" type="button" data-stagger-next aria-label="próximo depoimento"><svg><use href="#i-arrow"/></svg></button>
+          <button class="stagger__btn stagger__btn--pause" type="button" data-stagger-pause aria-pressed="false" aria-label="pausar a passagem automática"><svg><use href="#i-pause"/></svg></button>
+        </div>
+        <p class="sr-only" aria-live="polite" data-stagger-live></p>
+      </div>
+    </section>
+
+    <!-- comunidade (bloco limão) -->
+    <section class="section">
+      <div class="community">
+        <div>
+          <p class="community__label"><svg><use href="#i-heart"/></svg> comunidade villa salut</p>
+          <h2 class="community__title">treina com a gente<br>e ganhe <em>10% off</em></h2>
+        </div>
+        <form class="community__form" data-newsletter>
+          <label class="sr-only" for="email-inline">seu e-mail</label>
+          <input id="email-inline" type="email" placeholder="seu e-mail" required>
+          <button class="btn btn--on-lime" type="submit">quero meu cupom</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- entrega -->
+    <section class="section" id="entrega">
+      <div class="delivery">
+        <div class="delivery__imgs" aria-hidden="true">
+          <img src="assets/juicedop/juicedop-morango-hibisco.png" alt="">
+          <img src="assets/produtos/100-beef.png" alt="">
+        </div>
+        <div class="delivery__text">
+          <p class="eyebrow">entrega</p>
+          <p>enviamos pra todo o brasil com rastreio. pedidos até 14h saem no mesmo dia, bem embalados pra chegar inteiros.</p>
+          <ul class="trust trust--col">
+            <li><svg><use href="#i-truck"/></svg>frete grátis acima de R$ 199</li>
+            <li><svg><use href="#i-card"/></svg>pix, cartão em até 6x sem juros</li>
+            <li><svg><use href="#i-swap"/></svg>troca fácil em 7 dias</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#topo" class="footer__logo" aria-label="villa salut, voltar ao topo"><svg viewBox="0 0 204 72" aria-hidden="true"><use href="#logo"/></svg></a>
+        <p class="footer__claim">villa salut é uma loja de saúde e vida <em>fitness</em> ✦</p>
+        <div class="socials">
+          <a href="#" aria-label="instagram"><svg><use href="#i-instagram"/></svg></a>
+          <a href="#" aria-label="tiktok"><svg><use href="#i-tiktok"/></svg></a>
+          <a href="#" aria-label="youtube"><svg><use href="#i-youtube"/></svg></a>
+        </div>
+      </div>
+      <nav class="footer__cats" aria-label="categorias">
+        <a href="#categorias">proteínas</a>
+        <a href="#categorias">creatina</a>
+        <a href="#categorias">colágeno</a>
+        <a href="#categorias">clear whey</a>
+        <a href="#categorias">kits</a>
+      </nav>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="footer__legal">
+        <p>VILLA SALUT SUPLEMENTOS LTDA</p>
+        <p>atendimento seg. a sex., 9h às 18h</p>
+      </div>
+      <nav class="footer__links" aria-label="institucional">
+        <a href="#sobre">sobre nós</a>
+        <a href="#entrega">entrega</a>
+        <a href="#depoimentos">avaliações</a>
+        <a href="#">política de privacidade</a>
+        <a href="#">trocas e devoluções</a>
+        <a href="#">termos de uso</a>
+      </nav>
+      <div class="footer__contact">
+        <p class="muted">atendimento</p>
+        <a href="mailto:contato@villasalut.com.br">contato@villasalut.com.br</a>
+      </div>
+    </div>
+
+    <p class="footer__giant" aria-hidden="true">villa salut</p>
+  </footer>
+
+  <!-- pop-up newsletter -->
+  <div class="modal" data-modal hidden>
+    <div class="modal__backdrop" data-modal-close></div>
+    <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal__x" data-modal-close aria-label="fechar"><svg><use href="#i-close"/></svg></button>
+      <svg class="modal__heart" aria-hidden="true"><use href="#i-heart"/></svg>
+      <h2 id="modal-title" class="modal__title">comunidade <em>villa salut</em></h2>
+      <p>entra pra nossa lista e ganha 10% off na primeira compra, além de dicas de treino e lançamentos antes de todo mundo.</p>
+      <form data-newsletter>
+        <label class="sr-only" for="email-modal">seu e-mail</label>
+        <input id="email-modal" type="email" placeholder="seu e-mail" required>
+        <button class="btn btn--on-lime" type="submit">quero meu cupom</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===== painéis do cabeçalho (shop.js). <dialog> nativo: Esc fecha, foco fica preso dentro, sempre por cima ===== -->
+
+  <!-- busca -->
+  <dialog class="sheet sheet--search" id="busca" aria-label="buscar produtos">
+    <div class="search">
+      <div class="search__bar">
+        <svg aria-hidden="true"><use href="#i-search"/></svg>
+        <label class="sr-only" for="busca-campo">buscar por produto, marca ou categoria</label>
+        <input id="busca-campo" type="search" placeholder="buscar por produto, marca ou categoria" autocomplete="off" spellcheck="false" enterkeyhint="search" data-search-input>
+        <button class="icon-btn" type="button" data-search-clear aria-label="limpar busca" hidden><svg><use href="#i-close"/></svg></button>
+        <button class="search__close" type="button" data-close>fechar <kbd>esc</kbd></button>
+      </div>
+      <div class="search__body">
+        <div class="search__idle" data-search-idle>
+          <p class="eyebrow">categorias</p>
+          <div class="search__chips" data-search-chips></div>
+        </div>
+        <p class="search__status" data-search-status role="status" aria-live="polite"></p>
+        <ul class="search__results" data-search-results></ul>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- detalhes do produto -->
+  <dialog class="sheet sheet--center" id="produto" aria-labelledby="produto-nome">
+    <div class="pdp">
+      <button class="icon-btn pdp__x" type="button" data-close aria-label="fechar detalhes do produto"><svg><use href="#i-close"/></svg></button>
+      <div class="pdp__img"><img data-pdp-img alt=""></div>
+      <div class="pdp__info">
+        <p class="eyebrow" data-pdp-brand></p>
+        <h2 class="pdp__name" id="produto-nome" data-pdp-name></h2>
+        <p class="pdp__desc" data-pdp-desc></p>
+        <dl class="pdp__meta">
+          <div><dt>categoria</dt><dd data-pdp-cat></dd></div>
+          <div><dt>tamanho</dt><dd data-pdp-size></dd></div>
+          <div data-pdp-flavor-row><dt>sabor</dt><dd data-pdp-flavor></dd></div>
+        </dl>
+        <p class="pdp__price" data-pdp-price></p>
+        <div class="pdp__buy">
+          <div class="qty" data-pdp-qty>
+            <button type="button" data-qty-dec aria-label="diminuir quantidade"><svg><use href="#i-minus"/></svg></button>
+            <output aria-live="polite" aria-label="quantidade">1</output>
+            <button type="button" data-qty-inc aria-label="aumentar quantidade"><svg><use href="#i-plus"/></svg></button>
+          </div>
+          <button class="btn btn--primary" type="button" data-pdp-add>adicionar ao carrinho</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- carrinho -->
+  <dialog class="sheet sheet--side" id="carrinho" aria-labelledby="carrinho-titulo">
+    <div class="drawer">
+      <header class="drawer__head">
+        <h2 id="carrinho-titulo">seu carrinho <span class="drawer__count" data-cart-heading></span></h2>
+        <button class="icon-btn" type="button" data-close aria-label="fechar carrinho"><svg><use href="#i-close"/></svg></button>
+      </header>
+      <div class="drawer__body">
+        <ul class="cart-list" data-cart-list></ul>
+        <div class="drawer__empty" data-cart-empty hidden>
+          <svg aria-hidden="true"><use href="#i-bag"/></svg>
+          <p>seu carrinho está vazio por enquanto.</p>
+          <p class="muted">dá uma olhada nos mais vendidos, tem coisa boa esperando você.</p>
+          <a class="btn btn--primary" href="#mais-vendidos" data-close>ver produtos</a>
+        </div>
+      </div>
+      <footer class="drawer__foot" data-cart-foot hidden>
+        <div class="drawer__total"><span>subtotal</span><strong data-cart-subtotal></strong></div>
+        <p class="muted">frete e formas de pagamento no checkout.</p>
+        <a class="btn btn--primary" href="checkout.html">finalizar compra</a>
+        <button class="btn btn--line" type="button" data-close>continuar comprando</button>
+      </footer>
+    </div>
+  </dialog>
+
+  <!-- favoritos -->
+  <dialog class="sheet sheet--side" id="favoritos" aria-labelledby="favoritos-titulo">
+    <div class="drawer">
+      <header class="drawer__head">
+        <h2 id="favoritos-titulo">favoritos <span class="drawer__count" data-fav-heading></span></h2>
+        <button class="icon-btn" type="button" data-close aria-label="fechar favoritos"><svg><use href="#i-close"/></svg></button>
+      </header>
+      <div class="drawer__body">
+        <ul class="cart-list" data-fav-list></ul>
+        <div class="drawer__empty" data-fav-empty hidden>
+          <svg aria-hidden="true"><use href="#i-heart"/></svg>
+          <p>nenhum favorito ainda.</p>
+          <p class="muted">toque no coração de um produto pra guardar ele aqui.</p>
+          <a class="btn btn--primary" href="#mais-vendidos" data-close>ver produtos</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- conta do cliente -->
+  <dialog class="sheet sheet--side" id="conta" aria-labelledby="conta-titulo">
+    <div class="drawer">
+      <header class="drawer__head">
+        <h2 id="conta-titulo" data-account-title>entrar</h2>
+        <button class="icon-btn" type="button" data-close aria-label="fechar conta"><svg><use href="#i-close"/></svg></button>
+      </header>
+      <div class="drawer__body account">
+        <p class="account__alert" data-auth-alert role="alert" hidden></p>
+
+        <form class="account__form" data-auth-view="signin" novalidate>
+          <p class="account__lead">entre pra acompanhar seus pedidos e comprar mais rápido.</p>
+          <div class="field">
+            <label for="login-email">e-mail</label>
+            <input id="login-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+            <p class="field__error" data-error-for="email"></p>
+          </div>
+          <div class="field">
+            <label for="login-senha">senha</label>
+            <div class="field__pass">
+              <input id="login-senha" name="password" type="password" autocomplete="current-password" required>
+              <button type="button" class="field__eye" data-toggle-pass aria-label="mostrar senha" aria-pressed="false"><svg><use href="#i-eye"/></svg></button>
+            </div>
+            <p class="field__error" data-error-for="password"></p>
+          </div>
+          <button type="button" class="account__link" data-auth-go="reset">esqueci minha senha</button>
+          <button class="btn btn--primary account__submit" type="submit" data-busy-label="entrando…">entrar</button>
+          <p class="account__switch">não tem conta? <button type="button" class="account__link" data-auth-go="signup">criar conta</button></p>
+        </form>
+
+        <form class="account__form" data-auth-view="signup" novalidate hidden>
+          <p class="account__lead">crie sua conta em poucos segundos.</p>
+          <div class="field">
+            <label for="cad-nome">nome</label>
+            <input id="cad-nome" name="name" type="text" autocomplete="name" required>
+            <p class="field__error" data-error-for="name"></p>
+          </div>
+          <div class="field">
+            <label for="cad-email">e-mail</label>
+            <input id="cad-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+            <p class="field__error" data-error-for="email"></p>
+          </div>
+          <div class="field">
+            <label for="cad-senha">senha</label>
+            <div class="field__pass">
+              <input id="cad-senha" name="password" type="password" autocomplete="new-password" required aria-describedby="cad-senha-dica">
+              <button type="button" class="field__eye" data-toggle-pass aria-label="mostrar senha" aria-pressed="false"><svg><use href="#i-eye"/></svg></button>
+            </div>
+            <p class="field__hint" id="cad-senha-dica">mínimo de 8 caracteres, com letras e números.</p>
+            <p class="field__error" data-error-for="password"></p>
+          </div>
+          <div class="field">
+            <label for="cad-senha2">confirmar senha</label>
+            <input id="cad-senha2" name="confirm" type="password" autocomplete="new-password" required>
+            <p class="field__error" data-error-for="confirm"></p>
+          </div>
+          <button class="btn btn--primary account__submit" type="submit" data-busy-label="criando conta…">criar conta</button>
+          <p class="account__switch">já tem conta? <button type="button" class="account__link" data-auth-go="signin">entrar</button></p>
+        </form>
+
+        <form class="account__form" data-auth-view="reset" novalidate hidden>
+          <p class="account__lead">digite o e-mail da sua conta. se ele estiver cadastrado, você recebe um link pra criar uma senha nova.</p>
+          <div class="field">
+            <label for="rec-email">e-mail</label>
+            <input id="rec-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+            <p class="field__error" data-error-for="email"></p>
+          </div>
+          <button class="btn btn--primary account__submit" type="submit" data-busy-label="enviando…">enviar link</button>
+          <p class="account__switch"><button type="button" class="account__link" data-auth-go="signin">voltar pra entrar</button></p>
+        </form>
+
+        <div class="account__profile" data-auth-view="profile" hidden>
+          <p class="eyebrow">sua conta</p>
+          <p class="account__name" data-profile-name></p>
+          <p class="muted" data-profile-email></p>
+          <button class="btn btn--line" type="button" data-auth-signout data-busy-label="saindo…">sair da conta</button>
+        </div>
+
+        <p class="account__note" data-auth-note hidden>o acesso de clientes está em implantação: por enquanto, nenhum dado digitado aqui é enviado ou guardado.</p>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" role="status" aria-live="polite" popover="manual" data-toast></div>
+
+  <script src="catalog.js"></script>
+  <script src="cart.js"></script>
+  <script src="auth.js"></script>
+  <script src="glyph-portal.js"></script>
+  <script src="script.js"></script>
+  <script src="shop.js"></script>
+</body>
+</html>
